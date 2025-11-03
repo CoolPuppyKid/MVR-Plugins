@@ -22,7 +22,7 @@ namespace MVRPlugins
         private PluginLogging pluginLogging;
 
         // the goofy ahh api
-        static PluginAPI currentAPI;
+        public static PluginAPI currentAPI;
 
         private void Awake()
         {
@@ -30,11 +30,6 @@ namespace MVRPlugins
             CreateAPI();
             CreateLogging();
             LoadPlugins();
-        }
-
-        void Start()
-        {
-            currentAPI.FireEvent(new ExampleEvent(82));
         }
 
 
