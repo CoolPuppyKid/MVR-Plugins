@@ -1,0 +1,26 @@
+{
+    "name": "MVRPlugins",
+    "rootNamespace": "",
+    "references": [
+        ""
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "LinuxStandalone64Server",
+        "CloudRendering",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64",
+        "WindowsStandalone32Server",
+        "WindowsStandalone64Server"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
